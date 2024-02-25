@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/close.ico">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,400,700&display=swap" rel="stylesheet">
+    <title>SRK Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/modern-normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/utils.css">
+    <link rel="stylesheet" href="styles/components/about.css">
+    <link rel="stylesheet" href="styles/components/featured.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/contact.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/mobile_nav.css">
+    <link rel="stylesheet" href="styles/components/work.css">
+    
+  </head>
+  <body class="light_mode">
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#about">About</a></li>
+          <li><a class="header__link" href="#featured">Featured</a></li>
+          <li><a class="header__link" href="#work">Work</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__sun" aria-label="theme-toggle btn" id="theme-toggle" >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>
+            </button>
+          </li>
+          <li><a href="#" class="header__resume btn">Resume</a></li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- mobile nav -->
+    <div class="mobile_nav">
+      <nav>
+        <ul class="mobile_nav__menu">
+          <li><a href="#about" class="mobile_nav__link">About</a></li>
+          <li><a href="#featured" class="mobile_nav__link">Featured</a></li>
+          <li><a href="#Work" class="mobile_nav__link">Work</a></li>
+          <li><a href="#contact" class="mobile_nav__link">Contact</a></li>
+          <li class="mobile_nav__link_line"></li>
+          <li>
+            <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile_nav__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a href="#" class="mobile_nav__btn btn">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="images/profile1.jpg" alt="profile picture">
+        <h2 class="hero__subtitle">Hi, I'm Shah Rukh Khan</h2>
+        <h1 class="hero__title">CYBER SECURITY <br> EXPART.</h1>
+        <p class="hero__description">I am a <strong> top-notch penetration tester </strong> with <strong>extensive experience </strong> in all types of testing, including <strong> black box, white box, and grey box</strong>. I am familiar with all common <strong>attack vectors and mitigation techniques</strong>, and if you need a sample penetration testing report, I can provide one.</p>
+        <a class="hero__btn btn" href="#">Reach Out</a>
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">My name is Shah Rukh Khan Sagor . I have over 2 years of <strong>Cyber-Security</strong> experience in multiple verticals</p>
+          <p class="about__description">My core expertise resides in: compliance and governance &#40;PCI, HIPAA, SOC 2, NYSDFS, CMMC, DFARS, ISO, NIST, GDPR, and more&#41;, ethical hacking, incident response, penetration testing, secure design and architecture, and public speaking.</p>
+          <p class="about__description">I will ensure that you get the results that you deserve. My clients trust me to complete their tasks and I ALWAYS
+          deliver.</p>
+          <hr class="about__hr">
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">Phishing</li>
+              <li class="about__list">Cryptojacking</li>
+              <li class="about__list">Deepfakes</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">Internet of Things &#40;IoT&#41; Attacks</li>
+              <li class="about__list">Ransomware Attacks</li>
+              <li class="about__list">Cloud Security</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img loading="lazy" class="about__img" src="images/profile2.jpg" alt="">
+        </div>
+      </section>
+      <section id="featured" class="featured section container">
+        <h3 class="featured__subtitle">
+          Fetured Project
+        </h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">
+            Hack The World
+          </h2>
+          <a href="#" class="featured__link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+          </a>
+        </div>
+        <p class="featured__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque quis nihil ducimus nisi. Eos, cum dolores libero, porro voluptatem consequatur dolore quaerat, soluta harum cumque facilis aut non adipisci possimus odit! Dolore neque sint distinctio repellendus officia, magni eligendi nam iure illo hic ex,
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Teck Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">Phishing</li>
+              <li class="featured__info">Cryptojacking</li>
+              <li class="featured__info">Deepfakes</li>
+              <li class="featured__info">Cloud Security</li>
+              <li class="featured__info">Ransomware Attacks</li>
+              <li class="featured__info">Internet of Things &#40;IoT&#41; Attacks</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Security</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">December 2023 - Present</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/slayingthedragon.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/courses.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/pricing.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/faq.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/app.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/signin.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/blog.png" alt="featured image">
+          </div>
+          <div class="featured__img-wrapper">
+            <img loading="lazy" src="images/featured_images/features.png" alt="featured image">
+          </div>
+        </div>
+      </section>
+      <section id="work" class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam mollitia voluptatibus delectus facere officia corrupti minima voluptatum nam modi nisi!</p>
+        <!-- project1 -->
+        <div class="work__container">
+          <h3 class="work__project-title">Wax Motif</h3>
+          <div class="work__img-wrapper work__image1">
+            <img loading="lazy" src="images/projects_images/waxmoney.png" alt="">
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Wax Motif</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        <!-- project2 -->
+          <h3 class="work__project-title">Artren</h3>
+          <div class="work__img-wrapper work__image2">
+            <img loading="lazy" src="images/projects_images/artren.png" alt="">
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Artren</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        <!-- project3 -->
+          <h3 class="work__project-title">Platform Pro</h3>
+          <div class="work__img-wrapper work__image3">
+            <img loading="lazy" src="images/projects_images/platformpro.png" alt="">
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Platform Pro</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        <!-- project4 -->
+          <h3 class="work__project-title">Draze Force</h3>
+          <div class="work__img-wrapper work__image4">
+            <img loading="lazy" src="images/projects_images/drazeforce.png" alt="">
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">Draze Force</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        <!-- project5 -->
+          <h3 class="work__project-title">Old Portfolio</h3>
+          <div class="work__img-wrapper work__image5">
+            <img loading="lazy" src="images/projects_images/portfolio.png" alt="">
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Old Portfolio</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        <!-- project6 -->
+          <h3 class="work__project-title">Wallys Vegan</h3>
+          <div class="work__img-wrapper work__image6">
+            <img loading="lazy" src="images/projects_images/wallysvegan.png" alt="">
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">Wallys Vegan</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, repellat nemo.
+              Repellat praesentium saepe tempore.</p>
+            <p class="work__project-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nam laudantium
+              modi ut reiciendis necessitatibus, maxime aspernatur impedit eum autem molestias! Tempora et totam quibusdam eaque
+              quisquam laudantium. Recusandae, totam!</p>
+            <a class="btn work__project-btn" href="#">Website</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia perferendis veniam sed consequatur exercitationem deleniti, mollitia dignissimos modi tempora.
+        </p>
+        <a href="mailto:shahrukhkhanfoak@gmail.com" class="contact__btn btn" target="_blank">Reach out</a>
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Shah Rukh Khan Sagor ~</h3>
+    </footer>
+    
+    <script src="src/utils/dark_mode.js"></script>
+    <script src="src/utils/mobile_nav.js"></script>
+  </body>
+</html>

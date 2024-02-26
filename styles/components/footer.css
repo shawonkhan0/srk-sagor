@@ -7,4 +7,7 @@
   letter-spacing: 0.2em;
   user-select: none;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
 }
